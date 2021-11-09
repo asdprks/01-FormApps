@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:id="@+id/tvSoal"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Berapakah usia Asad Prakoso jika ia lahir tanggal 05 November 1998?" />
+
+    <RadioGroup
+        android:id="@+id/rgQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/rbSatu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="20 Tahun" />
+
+        <RadioButton
+            android:id="@+id/rbDua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="21 Tahun" />
+
+        <RadioButton
+            android:id="@+id/rbTiga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="22 Tahun" />
+
+        <RadioButton
+            android:id="@+id/rbEmpat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="23 Tahun" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnJawab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jawab" />
+</LinearLayout>
